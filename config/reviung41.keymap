@@ -48,9 +48,9 @@
 // |    |     |     |      |     |     |   |     |      |      |       |     |     |
 //                       |     |     |     |     |      |
                         bindings = <
-   &trans &trans    &trans     &trans    &trans    &trans        &trans    &trans    &kp UP    &trans    &trans    &trans
-   &trans &kp LCTRL &kp LSHIFT &kp LALT  &kp RGUI  &kp BSLH      &trans    &kp LEFT  &kp DOWN  &kp RIGHT &trans    &trans
-   &trans &trans    &trans     &trans    &trans    &trans        &trans    &trans    &trans    &trans   &trans   &trans
+   &trans &none     &none      &none     &none     &none         &none     &none     &kp UP    &none     &none  &trans
+   &trans &kp LCTRL &kp LSHIFT &kp LALT  &kp RGUI  &kp BSLH      &trans    &kp LEFT  &kp DOWN  &kp RIGHT &none    &trans
+   &trans &none     &none      &none     &none     &none         &none     &none     &none     &none     &none  &trans
                                 &trans      &trans       &trans        &trans      &trans
                         >;
                 };
