@@ -47,7 +47,7 @@
 // |    |     |     |  +  |  -  | "|" |   |  &  |  /  |  `  |     |     |     |
 //                       |     |     |     |     |     |
                         bindings = <
-   &trans &kp EXCL  &kp AT      &kp HASH &kp DLLR  &kp PRCNT      &kp CARET &kp AMPS &kp ASTRK &kp LPAR  &kp RPAR  &trans
+   &trans &kp EXCL  &kp AT      &kp HASH &kp DLLR  &kp PRCNT      &kp CARET &kp AMPS &kp STAR &kp LPAR  &kp RPAR  &trans
    &trans &kp LBKT  &kp RBKT    &kp LPAR &kp RPAR  &kp EQUAL      &kp UNDER &kp LBRC &kp RBRC  &kp BSLH  &kp SQT   &trans
    &trans &trans    &trans      &kp PLUS &kp MINUS &kp PIPE       &kp AMPS  &kp FSLH &kp GRAVE &trans    &trans    &trans
                                  &trans      &trans       &trans         &trans      &trans
