@@ -35,7 +35,7 @@
                         bindings = <
    &kp ESC         &kp Q       &kp W       &lt 2 E    &kp R      &kp T          &kp Y  &kp U      &kp I      &kp O       &kp P          &kp BSPC
    &kp TAB         &hm LCTRL A &hm LSHFT S &hm LALT D &hm LGUI F &kp G          &kp H  &hm RGUI J &hm LALT K &hm RSHFT L &hm LCTRL SEMI &kp RET
-   &kp LSHFT &kp Z       &kp X       &kp C      &kp V      &kp B          &kp N  &kp M      &kp COMMA  &kp DOT     &kp FSLH       &kp RSHFT
+   &kp LSHFT       &kp Z       &kp X       &kp C      &kp V      &kp B          &kp N  &kp M      &kp COMMA  &kp DOT     &kp FSLH       &kp RSHFT
                                 &mo 3      &lt 1 SPACE    &kp SPACE   &lt 2 SPACE  &tog 2
                         >;
                 };
@@ -72,7 +72,7 @@
 // -----------------------------------------------------------------------------------------
 // |    |  1  |  2  |  3  |  4  |  5   |   |  6  |  7  |  8  |  9  |  0  |    |
 // |    |     |     |     |     |      |   |     |     |     |     |     |    |
-// |    |     |     |     |RESET|EP_OFF|   |     |     |     |     |     |    |
+// |    |     |     |     |RESET|EP_OFF|   | BT0 | BT1 | BT2 | BT3 |BTCLR|    |
 //                        |     |      |   |     |     |
                         bindings = <
    &trans &kp N1 &kp N2 &kp N3 &kp N4 &kp N5                 &kp N6       &kp N7       &kp N8       &kp N9       &kp N0       &trans
