@@ -15,3 +15,7 @@
 include:
   - board: nice_nano_v2
     shield: reviung41
+  - board: nice_nano_v2
+    shield: cardio_left
+  - board: nice_nano_v2
+    shield: cardio_right
